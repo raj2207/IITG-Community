@@ -1,0 +1,35 @@
+.iitgbox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.iitgbox:hover{
+    border: 1px solid gray;
+}
+
+.iitgbox_info{
+    display: flex;
+    align-items: center;
+}
+
+.iitgbox_info >h5{
+    color:rgb(129,129,129);
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.iitgbox_iitg{
+    display: flex;
+    margin-top: 8px;
+}
+
+.iitgbox_iitg > p{
+    color:gray;
+    font-weight: bold;
+    font-size: large;
+}
